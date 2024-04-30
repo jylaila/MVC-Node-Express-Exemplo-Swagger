@@ -2,17 +2,22 @@
   "name": "mvc-node-express-exemplo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "swagger": "node swagger.js"
   },
   "author": "Janaina Ferreira",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "ejs": "^3.1.10",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "swagger-ui-express": "^5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "swagger-autogen": "^2.23.7"
   }
 }
