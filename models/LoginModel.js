@@ -8,13 +8,13 @@ module.exports = class LoginModel {
     }
 }
 
-const alunos = [
+const users = [
     {
         'nome': 'Daniela',
         'idade': 17
     },
     {
-        'nome': 'Jõao',
+        'nome': 'João',
         'idade': 21,
     },
     {
